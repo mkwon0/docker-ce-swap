@@ -286,6 +286,7 @@ type LinuxMemory struct {
 	KernelTCP *int64 `json:"kernelTCP,omitempty"`
 	// How aggressive the kernel will swap memory pages.
 	Swappiness *uint64 `json:"swappiness,omitempty"`
+	// Where the kernel will swap memory pages.
 	Swapfile *string `json:"swapfile,omitempty"`
 	// DisableOOMKiller disables the OOM killer for out of memory conditions
 	DisableOOMKiller *bool `json:"disableOOMKiller,omitempty"`

@@ -94,7 +94,7 @@ type containerOptions struct {
 	ioMaxBandwidth     opts.MemBytes
 	ioMaxIOps          uint64
 	swappiness         int64
-	swapfile	string
+	swapfile		   string
 	netMode            string
 	macAddress         string
 	ipv4Address        string
@@ -520,7 +520,7 @@ func parse(flags *pflag.FlagSet, copts *containerOptions) (*containerConfig, err
 		MemoryReservation:    copts.memoryReservation.Value(),
 		MemorySwap:           copts.memorySwap.Value(),
 		MemorySwappiness:     &copts.swappiness,
-		MemorySwapfile:	&copts.swapfile,
+		MemorySwapfile:		  &copts.swapfile,
 		KernelMemory:         copts.kernelMemory.Value(),
 		OomKillDisable:       &copts.oomKillDisable,
 		NanoCPUs:             copts.cpus.Value(),

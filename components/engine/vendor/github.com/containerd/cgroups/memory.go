@@ -286,6 +286,7 @@ func getMemorySettings(resources *specs.LinuxResources) []memorySettings {
 	mem := resources.Memory
 	var swappiness *int64
 	var swapfile *string
+	
 	if mem.Swappiness != nil {
 		v := int64(*mem.Swappiness)
 		swappiness = &v

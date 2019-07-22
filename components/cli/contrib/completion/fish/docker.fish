@@ -233,7 +233,7 @@ complete -c docker -A -f -n '__fish_seen_subcommand_from create' -s m -l memory 
 complete -c docker -A -f -n '__fish_seen_subcommand_from create' -l memory-reservation -d 'Memory soft limit'
 complete -c docker -A -f -n '__fish_seen_subcommand_from create' -l memory-swap -d 'Swap limit equal to memory plus swap: ‘-1’ to enable unlimited swap'
 complete -c docker -A -f -n '__fish_seen_subcommand_from create' -l memory-swappiness -d 'Tune container memory swappiness (0 to 100)'
-complete -c docker -A -f -n '__fish_seen_subcommand_from create' -l memory-swapfile -d 'Tune container memory swapfile
+complete -c docker -A -f -n '__fish_seen_subcommand_from create' -l memory-swapfile -d 'Tune container memory swapfile'
 complete -c docker -A -f -n '__fish_seen_subcommand_from create' -l mount -d 'Attach a filesystem mount to the container'
 complete -c docker -A -f -n '__fish_seen_subcommand_from create' -l name -d 'Assign a name to the container'
 complete -c docker -A -f -n '__fish_seen_subcommand_from create' -s net -l network -d 'Connect a container to a network'

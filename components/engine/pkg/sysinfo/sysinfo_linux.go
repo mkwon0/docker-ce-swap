@@ -106,7 +106,7 @@ func checkCgroupMem(cgMounts map[string]string, quiet bool) cgroupMemInfo {
 		MemoryReservation: memoryReservation,
 		OomKillDisable:    oomKillDisable,
 		MemorySwappiness:  memorySwappiness,
-		MemorySwapfile:	memorySwapfile,
+		MemorySwapfile:	   memorySwapfile,
 		KernelMemory:      kernelMemory,
 	}
 }
